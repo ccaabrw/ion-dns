@@ -2,7 +2,11 @@
 
 # Zone transfer DNS data from AD DC to local system
 
-# Address of Domian Controller
+# To allow transfers, see:
+# https://learn.microsoft.com/en-us/services-hub/unified/health/remediation-steps-ad/configure-all-dns-zones-only-to-allow-zone-transfers-to-specified-ip-addresses#suggested-actions
+
+
+# Address of Domain Controller
 DC=144.82.49.101
 
 # Store zone files here
